@@ -1,0 +1,62 @@
+body{
+    /*background-image: cover;
+    background-image: linear-gradient(to bottom left, red, blue, pink, yellow, green);
+    background-attachment: fixed;*/
+    background-color: black;
+}
+.p{
+    padding: 50px;
+    background-color: aqua;
+    background-clip: border-box;
+
+}
+
+h1{
+    text-align: center; 
+    color: white;
+    text-transform: uppercase;
+}
+section{
+    display: flex;
+    /* border: 2px solid red;*/ */
+    justify-content: center;    /* all boxes are move to the center*/
+    /*justify-content: end;       /*all boxes are move to the end point*/
+    justify-content: space-around;      /* space arount the boxes*/
+    /*justify-content: space-between;      /* space between two boxes are same*/
+    /*justify-content: space-evenly;          /* space between all boxes with left and right margin are the same*/ 
+    gap: 30px; 
+    padding: 45px; 
+    padding-bottom: 45px;
+
+    
+
+}
+.box1{
+    text-align: center;
+    color: black;
+    background-color: white; 
+    width: 320px;
+    height: 300px; 
+
+}
+.box2{
+    text-align: center;
+    color: black;
+    background-color: white; 
+    width: 320px;
+    height: 300px;
+}
+.box3{
+    text-align: center;
+    color: black;
+    background-color: white;
+    width: 320px;
+    height: 300px;
+} 
+.fa{
+    border-radius: 50%;
+    font-size: 35px;
+    color: white; 
+    padding: 15px; 
+    margin-top: 10px;
+}
